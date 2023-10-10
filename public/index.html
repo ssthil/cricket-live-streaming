@@ -24,20 +24,33 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>LIVE - Cricket</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+      // Initialize hls.js
+      if (Hls.isSupported()) {
+        var video = document.getElementById('videoPlayer');
+        var hls = new Hls();
+        hls.loadSource(
+          'https://103.lfjustfor.xyz:8088/stream/hizata2/playlist.m3u8?vidictid=196409337965&id=42979&pk=f4a7efb169cc3e35ebc5ac271a9874b1bd0f60bb129740660f59c79bd2771f55'
+        );
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play();
+        });
+      }
+      // If the browser doesn't support HLS, fallback to other options.
+      else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src =
+          'https://103.lfjustfor.xyz:8088/stream/hizata2/playlist.m3u8?vidictid=196409337965&id=42979&pk=f4a7efb169cc3e35ebc5ac271a9874b1bd0f60bb129740660f59c79bd2771f55';
+        video.addEventListener('canplay', function () {
+          video.play();
+        });
+      }
+    </script>
   </body>
 </html>

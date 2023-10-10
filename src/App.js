@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+        <div className="video-container">
+          <h1 className="title">PAK vs SL - Live ICC Cricket</h1>
+          <div>
+            Live streaming sponsored by <b>TON</b> 😊
+          </div>
+          <video id="videoPlayer" controls autoPlay muted></video>
+        </div>
+      </div>
   );
 }
 
