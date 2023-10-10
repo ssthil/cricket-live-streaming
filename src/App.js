@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactHlsPlayer from 'react-hls-player';
 import './App.css';
 
