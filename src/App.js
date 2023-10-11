@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      setUrl('https://www.youtube.com/live/scbAmodSL14?si=CXcJTqeJM_kZYrV4')
+      setUrl('https://vg-republictvlive.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-366023/c19b28b2-853d-4c86-b4a3-27ef071931e8/3.m3u8?ads.partner=Watcho&sessionId=a55ed05d-f199-4327-9107-18c7da601730')
     }, 2000)
   
     return () => {
