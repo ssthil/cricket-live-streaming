@@ -82,6 +82,10 @@
 }
 .copyrights {
   font-size: 13px;
+  display: block;
+}
+.copyrights-mobile {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -101,6 +105,14 @@
   }
   .copyrights {
     display: none;
+  }
+  .copyrights-mobile {
+    display: block;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
   }
 }
 

@@ -29,6 +29,9 @@ function App() {
         <p className="copyrights">
           ©2023 All Rights Reserved by <b>Senthil</b> 😊
         </p>
+        <p className="copyrights-mobile">
+          ©2023 by <b>Senthil</b> 😊
+        </p>
       </div>
       <div className="video-container">
         {/* <video id="videoPlayer" controls autoPlay muted></video> */}
