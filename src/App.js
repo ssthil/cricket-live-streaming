@@ -33,7 +33,7 @@ function App() {
             autoPlay={true}
             muted={true}
             controls={true}
-            width="90%"
+            width="100%"
             height="auto"
             hlsConfig={{
               maxLoadingDelay: 4,
