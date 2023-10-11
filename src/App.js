@@ -40,7 +40,7 @@ function App() {
               minAutoBitrate: 0,
               lowLatencyMode: true,
             }}
-            style={{border: '6px solid #333'}}
+            style={{border: '2px solid #333'}}
           />
             )
           }
