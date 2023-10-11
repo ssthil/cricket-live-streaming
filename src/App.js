@@ -18,9 +18,8 @@ function App() {
   return (
     <div>
         <div className="video-container">
-          <h3 className="title">Live streaming </h3>
-          <div>
-            Live streaming sponsored by <b>Senthil</b> 😊
+          <div className='title'>
+          ©2023 All Rights Reserved by <b>Senthil</b> 😊
           </div>
           {/* <video id="videoPlayer" controls autoPlay muted></video> */}
           {
@@ -32,6 +31,7 @@ function App() {
               <ReactHlsPlayer
             src={url}
             autoPlay={true}
+            muted={true}
             controls={true}
             width="90%"
             height="auto"
@@ -40,6 +40,7 @@ function App() {
               minAutoBitrate: 0,
               lowLatencyMode: true,
             }}
+            style={{border: '6px solid #333'}}
           />
             )
           }
