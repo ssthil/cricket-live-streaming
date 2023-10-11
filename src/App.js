@@ -10,7 +10,7 @@ function App() {
       setUrl('https://www.youtube.com/live/scbAmodSL14?si=CXcJTqeJM_kZYrV4')
     }, 2000)
   
-    return cleanUp = () => {
+    return () => {
       clearTimeout(timeoutId);
     }
   }, []);
