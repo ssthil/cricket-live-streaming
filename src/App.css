@@ -57,7 +57,10 @@
   margin: 0;
   margin: 10px;
 }
-
+.video-player {
+  width: 90%;
+  border: 5px solid #818181bb;
+}
 @media screen and (max-width: 768px) {
   /* Add your mobile-specific styles here */
   .video-container {
@@ -68,6 +71,10 @@
     height: 100vh; /* 100% of viewport height */
     background-color: #e1e1e2; /* Background color (optional) */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  }
+  .video-player {
+    width: 100%;
+    border: 0px solid #333;
   }
 }
 

@@ -29,18 +29,17 @@ function App() {
               </div>
             ) : (
               <ReactHlsPlayer
-            src={url}
-            autoPlay={true}
-            muted={true}
-            controls={true}
-            width="100%"
-            height="auto"
-            hlsConfig={{
-              maxLoadingDelay: 4,
-              minAutoBitrate: 0,
-              lowLatencyMode: true,
-            }}
-            style={{border: '2px solid #333'}}
+                src={url}
+                autoPlay={true}
+                muted={true}
+                controls={true}
+                height="auto"
+                hlsConfig={{
+                  maxLoadingDelay: 4,
+                  minAutoBitrate: 0,
+                  lowLatencyMode: true,
+                }}
+                className='video-player'
           />
             )
           }
