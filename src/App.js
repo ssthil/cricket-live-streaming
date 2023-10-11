@@ -23,7 +23,13 @@ function App() {
             Live streaming sponsored by <b>Senthil</b> 😊
           </div>
           {/* <video id="videoPlayer" controls autoPlay muted></video> */}
-          <ReactHlsPlayer
+          {
+            url === '' ? (
+              <div style={{flex: 1, justifyContent: 'center', alignContent: 'center'}}>
+                <p>Loading...</p>
+              </div>
+            ) : (
+              <ReactHlsPlayer
             src={url}
             autoPlay={true}
             controls={true}
@@ -35,6 +41,8 @@ function App() {
               lowLatencyMode: true,
             }}
           />
+            )
+          }
         </div>
       </div>
   );
