@@ -70,6 +70,13 @@
 
 @media screen and (max-width: 768px) {
   /* Add your mobile-specific styles here */
+  .container {
+    flex-direction: column;
+  }
+  .channels {
+    width: 100%;
+    padding: 5px;
+  }
   .video-container {
     display: flex;
     flex-direction: column;
