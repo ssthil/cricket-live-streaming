@@ -29,7 +29,7 @@ function App() {
   const channels = [
     {
       name: "CRICKET",
-      url: "https://103.lfjustfor.xyz:8088/stream/lizata1/playlist.m3u8?vidictid=196497500349&id=43662&pk=08589a6550277a55324fb0aa951e71d3c39d15d2412c8f8c8ba6579756b682e4",
+      url: "https://103.lfjustfor.xyz:8088/stream/lizata1/playlist.m3u8?vidictid=196493695891&id=43662&pk=6df0c2108cefee4a8384c6614450f499530ce1b2b71834337b25db02f014d39c",
     },
     {
       name: "REPUBLIC",
