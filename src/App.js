@@ -28,16 +28,16 @@ function App() {
 
   const channels = [
     {
-      name: "WION",
-      url: "https://d7x8z4yuq42qn.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTc0MTUwOTR9.1VnC4dICZygTwiW3JhmkTMFH_4zBUuNhHQBvScZVx2s",
+      name: "CRICKET",
+      url: "https://103.lfjustfor.xyz:8088/stream/lizata1/playlist.m3u8?vidictid=196497500349&id=43662&pk=08589a6550277a55324fb0aa951e71d3c39d15d2412c8f8c8ba6579756b682e4",
     },
     {
       name: "REPUBLIC",
       url: "https://vg-republictvlive.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-366023/c19b28b2-853d-4c86-b4a3-27ef071931e8/3.m3u8?ads.partner=Watcho&sessionId=a55ed05d-f199-4327-9107-18c7da601730",
     },
     {
-      name: "CRICKET",
-      url: "",
+      name: "WION",
+      url: "https://d7x8z4yuq42qn.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTc0MTUwOTR9.1VnC4dICZygTwiW3JhmkTMFH_4zBUuNhHQBvScZVx2s",
     },
   ];
 
