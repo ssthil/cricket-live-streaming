@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "sg.gov.mom.sgfwmomcare.uat",
+        "sha256_cert_fingerprints":
+          ["11:5C:9E:97:AC:64:8E:22:33:45:D8:44:8F:82:C1:CC:04:0C:B2:77:5C:6E:16:C8:E6:A0:C5:B7:07:65:F0:A6"]
+      }
+    }
+  ]
